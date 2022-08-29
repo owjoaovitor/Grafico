@@ -8,8 +8,8 @@ x1 = np.arange(len(valores_produto_A))
 x2 = [x+0.25 for x in x1]
 
 
-plt.bar(x1, valores_produto_A, width=0.25, label = 'Produto Azul', color ='deepskyblue')
-plt.bar(x2, valores_produto_B, width=0.25, label = 'Produto Verde', color ='mediumseagreen')
+plt.bar(x1, valores_produto_A, width=0.25, label = 'Produto Azul', color ='lime')
+plt.bar(x2, valores_produto_B, width=0.25, label = 'Produto Verde', color ='teal')
 
 meses = ['Agosto','Setembro','Outubro','Novembro','Dezembro']
 plt.xticks([x + 0.25 for x in range(len(valores_produto_A))],meses)
